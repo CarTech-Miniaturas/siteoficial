@@ -1,0 +1,220 @@
+.logo {
+    width: 200px;
+    margin-left: 50px;
+    transition: margin-left, 1s;
+}
+
+.logo:active {
+    margin-left: 500px;
+    transition: margin-left, 0.1s;
+}
+
+nav {
+    margin-top: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul li {
+    font-size: 20px;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.banner {
+    width: 100%;
+}
+
+h1 {
+    color: #362e12;
+    animation-duration: 0.3s;
+    animation-name: pulofim;
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+h1:active {
+    animation-duration: 0.3s;
+    animation-name: pulo;
+}
+
+@keyframes pulo {
+    0% {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    100% {
+        margin-top: -70px;
+        margin-bottom: 70px;
+    }
+}
+
+@keyframes pulofim {
+    0% {
+        margin-top: -70px;
+        margin-bottom: 70px;
+    }
+    100% {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+p {
+    animation: 0.3s;
+    animation-name: caidafim;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+p:active {
+    animation-duration: 0.3s;
+    animation-name: caida;
+}
+
+@keyframes caida {
+    0% {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    100% {
+        margin-top: 70px;
+        margin-bottom: -70px;
+    }
+}
+@keyframes caidafim {
+    0% {
+        margin-top: 70px;
+        margin-bottom: -70px;
+    }
+    100% {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.imghome {
+    transition: transform, 0.1s;
+}
+
+.imghome:hover {
+    cursor: pointer;
+}
+
+.imghome:active {
+    transform: scale(0);
+    transition: transform, 0.1s;
+}
+
+.centro {
+    text-align: center;
+}
+
+.parte {
+    margin-top: 90px;
+}
+
+.t1 {
+    margin: auto;
+    width: 70%;
+}
+
+.t2 {
+    margin: auto;
+    width: 65%;
+}
+
+.card {
+    margin: auto;
+    width: 18rem;
+    transition: transform, 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform, 1s;
+}
+
+.fundo {
+    background-color: #7a6a31;
+    color: white;
+} 
+
+.form-control, .form-select {
+    background-color: rgb(211, 211, 211);
+} 
+
+.botao {
+    background-color: #7a6a31;
+    color: white;
+}
+
+.pad {
+    padding-right: 30px;
+}
+
+.pad2 {
+    padding-top: 10px;
+    padding-right: 70px;
+}
+
+.pad3 {
+    padding-top: 10px;
+    padding-left: 110px;
+}
+
+.rodape {
+    background-color: #7a6a31;
+    color: white;
+    display: block;
+    margin-bottom: -16px;
+    padding: 50px;
+}
+
+.foto {
+    display: block;
+    margin: auto;
+    width: 450px;
+    border-radius: 10px;
+    transition: transform, 0.1s;
+}
+
+.foto:hover {
+    cursor: pointer;
+}
+
+.foto:active {
+    transform: rotate(180deg);
+    transition: transform, 0.1s;
+}
+
+.logosobre {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.titsobre {
+    color: #362e12;
+}
+
+.mapa {
+    width: 100%;
+    height: 500px;
+}
+
+.carac {
+    transition: transform, 1s;
+}
+
+.carac:hover {
+    transform: scale(1.1);
+    transition: transform, 1s;
+}
