@@ -5,7 +5,7 @@
 }
 
 .logo:active {
-    margin-left: 500px;
+    margin-left: 450px;
     transition: margin-left, 0.1s;
 }
 
@@ -29,89 +29,22 @@ nav ul {
 }
 
 h1 {
-    color: #362e12;
-    animation-duration: 0.3s;
-    animation-name: pulofim;
+    color: #274c77;
 }
 
-h1:hover {
-    cursor: pointer;
-}
-
-h1:active {
-    animation-duration: 0.3s;
-    animation-name: pulo;
-}
-
-@keyframes pulo {
-    0% {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    100% {
-        margin-top: -70px;
-        margin-bottom: 70px;
-    }
-}
-
-@keyframes pulofim {
-    0% {
-        margin-top: -70px;
-        margin-bottom: 70px;
-    }
-    100% {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-}
-
-p {
-    animation: 0.3s;
-    animation-name: caidafim;
-}
-
-p:hover {
-    cursor: pointer;
-}
-
-p:active {
-    animation-duration: 0.3s;
-    animation-name: caida;
-}
-
-@keyframes caida {
-    0% {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    100% {
-        margin-top: 70px;
-        margin-bottom: -70px;
-    }
-}
-@keyframes caidafim {
-    0% {
-        margin-top: 70px;
-        margin-bottom: -70px;
-    }
-    100% {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-}
-
-.imghome {
-    transition: transform, 0.1s;
-}
-
-.imghome:hover {
-    cursor: pointer;
-}
-
-.imghome:active {
-    transform: scale(0);
-    transition: transform, 0.1s;
-}
+.linhaComTexto {
+    width: 95%;
+    margin: auto;
+    height: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+  
+  .linhaComTexto > span {
+    font-size: 30px;
+    background-color: white;
+    padding: 0 10px;
+  }
 
 .centro {
     text-align: center;
@@ -143,7 +76,7 @@ p:active {
 }
 
 .fundo {
-    background-color: #7a6a31;
+    background-color: #6096ba;
     color: white;
 } 
 
@@ -152,7 +85,7 @@ p:active {
 } 
 
 .botao {
-    background-color: #7a6a31;
+    background-color: #6096ba;
     color: white;
 }
 
@@ -171,7 +104,7 @@ p:active {
 }
 
 .rodape {
-    background-color: #7a6a31;
+    background-color: #6096ba;
     color: white;
     display: block;
     margin-bottom: -16px;
@@ -183,16 +116,6 @@ p:active {
     margin: auto;
     width: 450px;
     border-radius: 10px;
-    transition: transform, 0.1s;
-}
-
-.foto:hover {
-    cursor: pointer;
-}
-
-.foto:active {
-    transform: rotate(180deg);
-    transition: transform, 0.1s;
 }
 
 .logosobre {
@@ -202,7 +125,7 @@ p:active {
 }
 
 .titsobre {
-    color: #362e12;
+    color: #274c77;
 }
 
 .mapa {
@@ -212,6 +135,10 @@ p:active {
 
 .carac {
     transition: transform, 1s;
+}
+
+.quadro {
+    padding: 170px;
 }
 
 .carac:hover {
