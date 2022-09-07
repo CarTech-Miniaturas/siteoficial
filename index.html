@@ -83,29 +83,34 @@
                 <p class="centro t2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium itaque et sunt impedit vel omnis, nam in aperiam cumque odio rem quod illum incidunt fugiat dignissimos nulla asperiores eum quis.</p>
             </div>
             <div class="col-md-7 pad">
-                <form action="https://api.staticforms.xyz/submit" method="post" class="row g-3">
-                    <input type="hidden" name="accessKey" value="0bdb96b9-4ab4-44a5-a13f-b77f1371d944">
-                    <input type="hidden" name="redirectTo" value="https://etemf-projetosweb.github.io/ETEMF_Projetos-WEB/ETEMF%20-%20Projetos%20Web/envio.html">
+                <form action="https://api.staticforms.xyz/submit" method="post" class="row g-3" onsubmit="return valemail(this, 1)">
+                    <input type="hidden" name="accessKey" value="90a6f899-ce0c-4092-9018-76691bb05aa6">
+                    <input type="hidden" name="redirectTo" value="https://cartech-miniaturas.github.io/siteoficial/envio.html">
                     <div class="col-md-6">
-                      <input type="text" name="$Nome" id="nome" class="form-control" placeholder="Nome" required="">
+                      <input type="text" name="$Nome" id="nome" class="form-control" placeholder="Nome">
+                      <p class="invalido" id="valnome1" name="valnome">Preencha o campo Nome</p>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" name="$Sobrenome" id="sobrenome" class="form-control" placeholder="Sobrenome" required="">
+                      <input type="text" name="$Sobrenome" id="sobrenome" class="form-control" placeholder="Sobrenome">
+                      <p class="invalido" id="valsobrenome1" name="valsobrenome">Preencha o campo Sobrenome</p>
                     </div>
                     <div class="col-md-12">
-                      <input type="email" name="email" id="email" class="form-control" placeholder="E-mail" required="">
+                      <input type="email" name="email" id="email" class="form-control" placeholder="E-mail">
+                      <p class="invalido" id="valemail1" name="valemail">Preencha o campo Email</p>
                     </div>
                     <div class="col-md-12">
                       <select name="subject" class="form-select" id="tipo">
-                        <option value="Escolha">Assunto...</option>
+                        <option value="nada">Assunto...</option>
                         <option value="Dúvida">Dúvida</option>
                         <option value="Opinião">Opinião</option>
                         <option value="Crítica">Crítica</option>
                         <option value="Elogios">Elogios</option>
                       </select>
+                      <p class="invalido" id="valtipo1" name="valtipo">Selecione uma opção de Assunto</p>
                     </div>
                     <div class="col-md-12">
-                      <textarea name="$Mensagem" class="form-control" placeholder="Mensagem..." id="mensagem" cols="30" rows="7" required=""></textarea>
+                      <textarea name="$Mensagem" class="form-control" placeholder="Mensagem..." id="mensagem" cols="30" rows="7"></textarea>
+                      <p class="invalido" id="valmensagem1" name="valmensagem">Preencha o campo Mensagem</p>
                     </div>
                     <div class="col-md-12">
                       <input type="submit" class="form-control botao" value="Enviar">
@@ -118,5 +123,6 @@
         <p class="centro">Copyright</p>
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
   </body>
 </html>
