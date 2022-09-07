@@ -1,3 +1,7 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
 .logo {
     width: 200px;
     margin-left: 50px;
@@ -108,7 +112,6 @@ h1 {
     color: white;
     display: block;
     margin-bottom: -16px;
-    padding: 50px;
 }
 
 .foto {
@@ -149,4 +152,23 @@ h1 {
 .invalido {
     color: rgb(199, 4, 4);
     display: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.inforod {
+    padding: 40px;
+}
+
+.dt {
+    background-color: #274c77;
+    padding: 10px;
 }
