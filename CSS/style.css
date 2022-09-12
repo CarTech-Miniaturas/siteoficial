@@ -13,6 +13,17 @@
     transition: margin-left, 0.1s;
 }
 
+.logo-todos {
+    width: 150px;
+    margin-left: auto;
+}
+
+.back-button {
+    margin-left: 10px;
+    font-size: 50px;
+    color: #6096ba;
+}
+
 nav {
     margin-top: 10px;
     position: fixed;
@@ -48,6 +59,7 @@ h1 {
     font-size: 30px;
     background-color: white;
     padding: 0 10px;
+    color: #274c77;
   }
 
 .centro {
@@ -104,7 +116,7 @@ h1 {
 
 .pad3 {
     padding-top: 10px;
-    padding-left: 110px;
+    padding-left: 85px;
 }
 
 .rodape {
@@ -171,4 +183,36 @@ h1 {
 .dt {
     background-color: #274c77;
     padding: 10px;
+}
+
+.bt-produtos {
+    display: block;
+    border: none;
+    border-radius: 4px;
+    color: #274c77;
+    margin-left: 1120px;
+}
+
+.seta-esquerda {
+    display: block;
+    margin-top: 280%;
+    margin-left: 50px;
+}
+.seta-direita {
+    display: block;
+    margin-top: 280%;
+    margin-right: 50px;
+}
+
+.seta-esquerda:hover, .seta-direita:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+#mv-2, #p-2, #c-2, #t-2, #t-3, #t-4, #t-5, #t-6 {
+    display: none;
+}
+
+.invisivel {
+    visibility: hidden;
 }
