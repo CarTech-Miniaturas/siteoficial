@@ -216,3 +216,37 @@ h1 {
 .invisivel {
     visibility: hidden;
 }
+
+.somepc {
+    display: none;
+}
+
+.somecell {
+    display: block;
+}
+
+/*Celular*/
+@media (max-width: 576px) {
+    .somepc {
+        display: block;
+    }
+    .somecell {
+        display: none;
+    }
+    .logo {
+        width: 140px;
+        margin-left: 10px;
+    }
+    .fundo-responsivo {
+        background-color: #6096ba;
+    }
+    .t1, .t2 {
+        width: 85%;
+    }
+    .pad {
+        padding: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
