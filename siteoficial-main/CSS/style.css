@@ -1,0 +1,270 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 50px;
+    transition: margin-left, 1s;
+}
+
+.logo:active {
+    margin-left: 450px;
+    transition: margin-left, 0.1s;
+}
+
+.logo-todos {
+    width: 150px;
+    margin-left: auto;
+}
+
+.back-button {
+    margin-left: 10px;
+    font-size: 50px;
+    color: #6096ba;
+}
+
+nav {
+    margin-top: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul li {
+    font-size: 20px;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.banner {
+    width: 100%;
+}
+
+h1 {
+    color: #274c77;
+}
+
+.linhaComTexto {
+    width: 95%;
+    margin: auto;
+    height: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+  
+  .linhaComTexto > span {
+    font-size: 30px;
+    background-color: white;
+    padding: 0 10px;
+    color: #274c77;
+  }
+
+.centro {
+    text-align: center;
+}
+
+.parte {
+    margin-top: 90px;
+}
+
+.t1 {
+    margin: auto;
+    width: 70%;
+}
+
+.t2 {
+    margin: auto;
+    width: 65%;
+}
+
+.card {
+    margin: auto;
+    width: 18rem;
+    transition: transform, 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform, 1s;
+}
+
+.fundo {
+    background-color: #6096ba;
+    color: white;
+} 
+
+.form-control, .form-select {
+    background-color: rgb(211, 211, 211);
+} 
+
+.botao {
+    background-color: #6096ba;
+    color: white;
+}
+
+.pad {
+    padding-right: 30px;
+}
+
+.pad2 {
+    padding-top: 10px;
+    padding-right: 70px;
+}
+
+.pad3 {
+    padding-top: 10px;
+    padding-left: 85px;
+}
+
+.rodape {
+    background-color: #6096ba;
+    color: white;
+    display: block;
+    margin-bottom: -16px;
+}
+
+.foto {
+    display: block;
+    margin: auto;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.logosobre {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.titsobre {
+    color: #274c77;
+}
+
+.mapa {
+    width: 100%;
+    height: 500px;
+}
+
+.carac {
+    transition: transform, 1s;
+}
+
+.quadro {
+    padding: 170px;
+}
+
+.carac:hover {
+    transform: scale(1.1);
+    transition: transform, 1s;
+}
+
+.invalido {
+    color: rgb(199, 4, 4);
+    display: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.inforod {
+    padding: 40px;
+}
+
+.dt {
+    background-color: #274c77;
+    padding: 10px;
+}
+
+.bt-produtos {
+    display: block;
+    border: none;
+    border-radius: 4px;
+    color: #274c77;
+    margin-left: 1120px;
+}
+
+.seta-esquerda {
+    display: block;
+    margin-top: 280%;
+    margin-left: 50px;
+}
+.seta-direita {
+    display: block;
+    margin-top: 280%;
+    margin-right: 50px;
+}
+
+.seta-esquerda:hover, .seta-direita:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+#mv-2, #p-2, #c-2, #t-2, #t-3, #t-4, #t-5, #t-6 {
+    display: none;
+}
+
+.invisivel {
+    visibility: hidden;
+}
+
+.somepc {
+    display: none;
+}
+
+.somecell {
+    display: block;
+}
+.somecellflex {
+    display: flex;
+}
+
+/*Celular*/
+@media (max-width: 576px) {
+    .somepc {
+        display: block;
+    }
+    .somecell, .somecellflex {
+        display: none;
+    }
+    .logo {
+        width: 140px;
+        margin-left: 10px;
+    }
+    .fundo-responsivo {
+        background-color: #6096ba;
+    }
+    .tr {
+        margin: auto;
+    }
+    .t1, .t2, .tr {
+        width: 85%;
+    }
+    .pad {
+        padding: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .foto {
+        width: 80%;
+    }
+    .pad3 {
+        padding: 0;
+    }
+    .centrores {
+        text-align: center;
+    }
+    .quadro {
+        padding: 100px;
+    }
+}
