@@ -14,11 +14,21 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark position-absolute">
-        <div class="container-fluid">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="imagens/logocartech.png" alt="" class="d-inline-block align-text-top logo">
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header fundo-responsivo">
             <a class="navbar-brand" href="#">
-                <img src="imagens/logocartech.png" alt="" class="d-inline-block align-text-top logo">
-            </a>
-          <div class="collapse navbar-collapse" id="navbarNav">
+              <img src="imagens/logocartech.png" alt="" class="d-inline-block align-text-top logo">
+          </a>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body fundo-responsivo">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="index.html">Página Inicial</a>
@@ -38,12 +48,13 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
       <header>
         <img src="imagens/banners-cartech/sobre-nos/banner.png" class="banner" alt="">
       </header>
       <section class="parte">
-        <div class="row g-0">
+        <div class="row g-0 somecellflex">
             <div class="col-md-6">
                 <img src="imagens/foto1.png" class="foto" alt="">
             </div>
@@ -52,12 +63,25 @@
                 <p class="pad2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates qui fuga quaerat nihil veritatis in sunt praesentium, perferendis modi consectetur nisi quia voluptate mollitia nam quos ullam, deserunt ipsa? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto facilis quae, doloremque commodi aliquid fugit ratione nostrum sapiente cumque vel eligendi exercitationem magnam pariatur porro delectus, aliquam harum voluptatum excepturi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum et nobis nesciunt impedit ducimus. Necessitatibus, vitae? Ea possimus, dolores nihil saepe laboriosam ad aliquid dolorum quasi accusamus quis unde iste.</p>
             </div>
         </div>
+        <div class="row g-0 somepc centro">
+          <div class="col-md-6">
+              <h1>Quem Somos?</h1>
+              <br>
+              <p class="tr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates qui fuga quaerat nihil veritatis in sunt praesentium, perferendis modi consectetur nisi quia voluptate mollitia nam quos ullam, deserunt ipsa? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto facilis quae, doloremque commodi aliquid fugit ratione nostrum sapiente cumque vel eligendi exercitationem magnam pariatur porro delectus, aliquam harum voluptatum excepturi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum et nobis nesciunt impedit ducimus. Necessitatibus, vitae? Ea possimus, dolores nihil saepe laboriosam ad aliquid dolorum quasi accusamus quis unde iste.</p>
+          </div>
+          <br>
+          <div class="col-md-6">
+            <img src="imagens/foto1.png" class="foto" alt="">
+        </div>
+      </div>
         <br><br><br>
         <div class="row g-0">
-            <div class="col-md-6">
+            <div class="col-md-6 centrores tr">
                 <h1 class="pad3">Nossa Intenção</h1>
+                <br>
                 <p class="pad3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates qui fuga quaerat nihil veritatis in sunt praesentium, perferendis modi consectetur nisi quia voluptate mollitia nam quos ullam, deserunt ipsa? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto facilis quae, doloremque commodi aliquid fugit ratione nostrum sapiente cumque vel eligendi exercitationem magnam pariatur porro delectus, aliquam harum voluptatum excepturi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum et nobis nesciunt impedit ducimus. Necessitatibus, vitae? Ea possimus, dolores nihil saepe laboriosam ad aliquid dolorum quasi accusamus quis unde iste.</p>
             </div>
+            <br>
             <div class="col-md-6">
                 <img src="imagens/foto2.png" class="foto" alt="">
             </div>
@@ -69,9 +93,15 @@
                 <img src="imagens/logos-cartech/1/desenho-1.png" class="logosobre" alt="">
                 <h5 class="centro">Preços Ótimos</h5>
             </div>
+            <div class="somepc">
+              <br>
+            </div>
             <div class="col-md-4 carac">
                 <img src="imagens/logos-cartech/2/desenho.png" class="logosobre" alt="">
                 <h5 class=" centro">Atendimento Excelente</h5>
+            </div>
+            <div class="somepc">
+              <br>
             </div>
             <div class="col-md-4 carac">
                 <img src="imagens/logos-cartech/3/desenho-1.png" class="logosobre" alt="">
@@ -132,6 +162,7 @@
         <div class="row g-0 inforod">
           <div class="col-md-3 centro">
             <img src="imagens/logocartech.png" width="200" alt="">
+            <br><br>
           </div>
           <div class="col-md-3 centro">
             <b>Páginas</b>
@@ -141,6 +172,7 @@
             <a href="produtos.html" class="link">Produtos</a>
             <br>
             <a href="sobre-nos.html" class="link">Sobre Nós</a>
+            <br><br>
           </div>
           <div class="col-md-3 centro">
             <b>Produtos</b>
@@ -150,7 +182,7 @@
             <a href="#" class="link">Populares</a>
             <br>
             <a href="#" class="link">Clássicos</a>
-            
+            <br><br>
           </div>
           <div class="col-md-3 centro">
             <b>Contato</b>

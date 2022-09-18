@@ -224,13 +224,16 @@ h1 {
 .somecell {
     display: block;
 }
+.somecellflex {
+    display: flex;
+}
 
 /*Celular*/
 @media (max-width: 576px) {
     .somepc {
         display: block;
     }
-    .somecell {
+    .somecell, .somecellflex {
         display: none;
     }
     .logo {
@@ -240,7 +243,10 @@ h1 {
     .fundo-responsivo {
         background-color: #6096ba;
     }
-    .t1, .t2 {
+    .tr {
+        margin: auto;
+    }
+    .t1, .t2, .tr {
         width: 85%;
     }
     .pad {
@@ -248,5 +254,17 @@ h1 {
     }
     p {
         font-size: 15px;
+    }
+    .foto {
+        width: 80%;
+    }
+    .pad3 {
+        padding: 0;
+    }
+    .centrores {
+        text-align: center;
+    }
+    .quadro {
+        padding: 100px;
     }
 }
