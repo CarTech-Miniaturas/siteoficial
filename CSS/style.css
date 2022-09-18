@@ -13,9 +13,8 @@
     transition: margin-left, 0.1s;
 }
 
-.logo-todos {
-    width: 150px;
-    margin-left: auto;
+.tit-tudo {
+    margin-right: auto;
 }
 
 .back-button {
@@ -195,13 +194,13 @@ h1 {
 
 .seta-esquerda {
     display: block;
-    margin-top: 280%;
-    margin-left: 50px;
+    margin-top: 230%;
+    margin-left: 70%;
 }
 .seta-direita {
     display: block;
-    margin-top: 280%;
-    margin-right: 50px;
+    margin-top: 230%;
+    margin-right: 50%;
 }
 
 .seta-esquerda:hover, .seta-direita:hover {
@@ -209,7 +208,7 @@ h1 {
     color: gray;
 }
 
-#mv-2, #p-2, #c-2, #t-2, #t-3, #t-4, #t-5, #t-6 {
+#mv-2, #p-2, #c-2, #t-2, #t-3, #t-4, #t-5, #t-6, #mvr-2, #mvr-3, #mvr-4, #mvr-5, #mvr-6, #pr-2, #pr-3, #pr-4, #pr-5, #pr-6, #cr-2, #cr-3, #cr-4, #cr-5, #cr-6, #tr-2, #tr-3, #tr-4, #tr-5, #tr-6, #tr-7, #tr-8, #tr-9, #tr-10, #tr-11, #tr-12, #tr-13, #tr-14, #tr-15, #tr-16, #tr-17, #tr-18 {
     display: none;
 }
 
@@ -266,5 +265,16 @@ h1 {
     }
     .quadro {
         padding: 100px;
+    }
+    .bt-produtos {
+        margin-left: 80%;
+    }
+    .seta-esquerda {
+        margin-top: 315%;
+        margin-left: 50%;
+    }
+    .seta-direita {
+        margin-top: 315%;
+        margin-left: 15%;
     }
 }
