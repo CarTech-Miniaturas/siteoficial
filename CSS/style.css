@@ -38,6 +38,10 @@ nav ul {
     margin-right: 40px;
 }
 
+.login {
+    cursor: pointer;
+}
+
 .banner {
     width: 100%;
 }
@@ -225,6 +229,21 @@ h1 {
 }
 .somecellflex {
     display: flex;
+}
+
+.direita {
+    display: block;
+    margin-left: auto;
+}
+.bt-login {
+    width: 100%;
+    background-color: #274c77;
+}
+.bt-login:hover {
+    background-color: #32547a;
+}
+a {
+    color: #274c77;
 }
 
 /*Celular*/
