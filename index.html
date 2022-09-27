@@ -195,17 +195,20 @@
             <button type="button" class="btn-close direita" data-bs-dismiss="modal" aria-label="Close"></button>
             <h1 class="centro">Login</h1>
             <div class="p-4">
-              <form>
+              <form method="post" action="perfil.php" onsubmit="return logar()">
                 <div class="mb-3">
+                  <p class="vali" id="valilogin-inval">E-mail ou Senha inválidos</p>
                   <label for="email-login" class="form-label">Email:</label>
                   <input type="email" class="form-control" id="email-login" name="email-login" aria-describedby="emailHelp">
+                  <p class="vali" id="valilogin-email">Preencha o campo E-mail</p>
                 </div>
                 <div class="mb-3">
                   <label for="senha-login" class="form-label">Senha:</label>
                   <input type="password" class="form-control" id="senha-login" name="senha-login">
+                  <p class="vali" id="valilogin-senha">Preencha o campo Senha</p>
                 </div>
                 <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="mostrar-senha" name="mostrar-senha">
+                  <input type="checkbox" class="form-check-input" id="mostrar-senha" name="mostrar-senha" onclick="mostrar()">
                   <label class="form-check-label" for="mostrar-senha">Mostrar Senha</label>
                 </div>
                 <p>Ainda não possui login? <a href="">Cadastre-se!</a></p>

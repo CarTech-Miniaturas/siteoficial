@@ -237,13 +237,26 @@ h1 {
 }
 .bt-login {
     width: 100%;
+    border-color: #274c77;
     background-color: #274c77;
 }
 .bt-login:hover {
     background-color: #32547a;
 }
+
 a {
     color: #274c77;
+}
+a:hover {
+    color: #355c8a;
+}
+
+.vali {
+    color: rgb(146, 15, 15);
+}
+
+#valilogin-inval, #valilogin-email, #valilogin-senha {
+    display: none;
 }
 
 /*Celular*/
