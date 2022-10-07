@@ -256,7 +256,7 @@ a:hover {
     color: rgb(146, 15, 15);
 }
 
-#valilogin-inval, #valilogin-email, #valilogin-senha, #valicadastro-nome {
+#valilogin-inval, #valilogin-email, #valilogin-senha, #valicadastro-nome, #valicadastro-email, #valicadastro-senha, #valicadastro-confirmsenha, #valicadastro-difsenha, #valicadastro-sobrenome, #valicadastro-cpf, #valicadastro-tel, #valicadastro-nasc, #valicadastro-endereco, #valicadastro-maioridade {
     display: none;
 }
 
