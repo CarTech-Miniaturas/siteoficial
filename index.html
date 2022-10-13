@@ -14,35 +14,48 @@
     <link rel="shortcut icon" href="imagens/icone-cartech.ico" type="image/x-icon">
   </head>
   <body>
+    <!-- Menu -->
       <nav class="navbar navbar-expand-lg navbar-dark position-absolute">
+
         <div class="container-fluid">
+          <!-- Logo -->
           <a class="navbar-brand" href="#">
             <img src="imagens/logocartech.png" alt="" class="d-inline-block align-text-top logo">
         </a>
+        <!-- Botão do Menu Hamburger -->
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <!-- Menu Responsivo -->
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header fundo-responsivo">
+              <!-- Logo do Menu Responsivo -->
               <a class="navbar-brand" href="#">
                 <img src="imagens/logocartech.png" alt="" class="d-inline-block align-text-top logo">
             </a>
+            <!-- Botão de fechar o Menu Responsivo -->
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body fundo-responsivo">
+              <!-- Páginas -->
               <ul class="navbar-nav">
+                <!-- Página Inicial -->
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Página Inicial</a>
                 </li>
+                <!-- Produtos -->
                 <li class="nav-item">
                   <a class="nav-link" href="produtos.html">Produtos</a>
                 </li>
+                <!-- Sobre Nós -->
                 <li class="nav-item">
                   <a class="nav-link" href="sobre-nos.html">Sobre Nós</a>
                 </li>
+                <!-- Contato -->
                 <li class="nav-item">
                   <a class="nav-link" href="#contato">Contato</a>
                 </li>
+                <!-- Login -->
                 <li class="nav-item">
                   <a class="nav-link login" data-bs-toggle="modal" data-bs-target="#login">Login</a>
                 </li>
@@ -51,74 +64,110 @@
           </div>
         </div>
       </nav>
+      <!-- Banner -->
       <header>
         <img src="imagens/banners-cartech/página-inicial/banner.png" class="banner" alt="">
       </header>
+      <!-- Texto -->
       <section class="parte">
+        <!-- Título -->
         <h1 class="centro">Título</h1>
         <br>
+        <!-- Parágrafo -->
         <p class="centro t1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nesciunt voluptatum veniam deserunt consequuntur, rerum necessitatibus architecto animi quae! Id ut earum minima facere, veritatis numquam sapiente itaque eum porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum molestias nemo ex id necessitatibus. Atque ab autem ullam, quo sunt mollitia minima, voluptatum dolorum, maxime eos accusantium voluptates nam quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit corrupti repellendus nobis incidunt perferendis doloremque cumque officia, ut labore optio, pariatur vel porro eos nulla quo voluptatem iusto dicta. </p>
       </section>
+      <!-- Cards de Categorias -->
       <section class="parte">
+        <!-- Título Categorias -->
         <div class="linhaComTexto">
           <span><b>Categorias</b></span>
         </div>
         <br><br><br>
+        <!-- Cards -->
         <div class="row col-md-12 g-0">
+          <!-- Card Mais Vendidos -->
             <div class="card col-md-4 col-sm-12 card fundo">
                 <img src="imagens/produtos/mais-vendidos/lamborghini.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                  <!-- Título -->
                   <h5 class="card-title centro">Mais Vendidos</h5>
+                  <!-- Parágrafo -->
                   <p class="card-text centro">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
+              <!-- Card Populares -->
               <div class="col-sm-12 somepc"><br><br></div>
               <div class="card col-md-4 col-sm-12 card fundo">
                 <img src="imagens/produtos/populares/ford.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                  <!-- Título -->
                   <h5 class="card-title centro">Populares</h5>
+                  <!-- Parágrafo -->
                   <p class="card-text centro">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
+              <!-- Card Clássicos -->
               <div class="col-sm-12 somepc"><br><br></div>
               <div class="card col-md-4 col-sm-12 card fundo">
                 <img src="imagens/produtos/classicos/batman.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                  <!-- Título -->
                   <h5 class="card-title centro">Clássicos</h5>
+                  <!-- Parágrafo -->
                   <p class="card-text centro">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
         </div>
       </section>
+      <!-- Imagem -->
       <section class="parte">
+        <!-- Imagem Normal -->
         <img src="imagens/imagem-home.png" class="banner imghome somecell" alt="">
+        <!-- Imagem Responsiva -->
         <img src="imagens/imagem-home-responsivo.png" class="banner somepc" alt="">
       </section>
+      <!-- Contato -->
       <section class="parte" id="contato">
         <div class="row g-0">
+          <!-- Texto -->
             <div class="col-md-5">
+              <!-- Título -->
                 <h1 class="centro">Fale conosco!</h1>
                 <br>
+                <!-- Parágrafo -->
                 <p class="centro t2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium itaque et sunt impedit vel omnis, nam in aperiam cumque odio rem quod illum incidunt fugiat dignissimos nulla asperiores eum quis.</p>
                 <br class="somepc">
             </div>
+            <!-- Formulário -->
             <div class="col-md-7 pad">
                 <form action="https://api.staticforms.xyz/submit" method="post" class="row g-3" onsubmit="return valemail(this, 1)">
+                  <!-- Inputs invisíveis -->
                     <input type="hidden" name="accessKey" value="90a6f899-ce0c-4092-9018-76691bb05aa6">
                     <input type="hidden" name="redirectTo" value="https://cartech-miniaturas.github.io/siteoficial/envio.html">
+                    <!-- Nome -->
                     <div class="col-md-6">
+                      <!-- Caixa de Texto -->
                       <input type="text" name="$Nome" id="nome" class="form-control" placeholder="Nome">
+                      <!-- Validação -->
                       <p class="invalido" id="valnome1" name="valnome">Preencha o campo Nome</p>
                     </div>
+                    <!-- Sobrenome -->
                     <div class="col-md-6">
+                      <!-- Caixa de Texto -->
                       <input type="text" name="$Sobrenome" id="sobrenome" class="form-control" placeholder="Sobrenome">
+                      <!-- Validação -->
                       <p class="invalido" id="valsobrenome1" name="valsobrenome">Preencha o campo Sobrenome</p>
                     </div>
+                    <!-- E-mail -->
                     <div class="col-md-12">
+                      <!-- Caixa de Texto -->
                       <input type="email" name="email" id="email" class="form-control" placeholder="E-mail">
+                      <!-- Validação -->
                       <p class="invalido" id="valemail1" name="valemail">Preencha o campo Email</p>
                     </div>
+                    <!-- Assunto -->
                     <div class="col-md-12">
+                      <!-- Caixa de Seleção -->
                       <select name="subject" class="form-select" id="tipo">
                         <option value="nada">Assunto...</option>
                         <option value="Dúvida">Dúvida</option>
@@ -126,25 +175,35 @@
                         <option value="Crítica">Crítica</option>
                         <option value="Elogios">Elogios</option>
                       </select>
+                      <!-- Validação -->
                       <p class="invalido" id="valtipo1" name="valtipo">Selecione uma opção de Assunto</p>
                     </div>
+                    <!-- Mensagem -->
                     <div class="col-md-12">
+                      <!-- Área de Texto -->
                       <textarea name="$Mensagem" class="form-control" placeholder="Mensagem..." id="mensagem" cols="30" rows="7"></textarea>
+                      <!-- Validação -->
                       <p class="invalido" id="valmensagem1" name="valmensagem">Preencha o campo Mensagem</p>
                     </div>
+                    <!-- Enviar -->
                     <div class="col-md-12">
+                      <!-- Botão -->
                       <input type="submit" class="form-control botao" value="Enviar">
                     </div>
                   </form>
             </div>
         </div>
       </section>
+      <!-- Rodapé -->
       <footer class="parte rodape">
+        <!-- Informações -->
         <div class="row g-0 inforod">
+          <!-- Logo -->
           <div class="col-md-3 centro">
             <img src="imagens/logocartech.png" width="200" alt="">
             <br><br>
           </div>
+          <!-- Páginas -->
           <div class="col-md-3 centro">
             <b>Páginas</b>
             <br>
@@ -155,6 +214,7 @@
             <a href="sobre-nos.html" class="link">Sobre Nós</a>
             <br><br>
           </div>
+          <!-- Produtos -->
           <div class="col-md-3 centro">
             <b>Produtos</b>
             <br>
@@ -165,6 +225,7 @@
             <a href="#" class="link">Clássicos</a>
             <br><br>
           </div>
+          <!-- Contato -->
           <div class="col-md-3 centro">
             <b>Contato</b>
             <br>
@@ -182,36 +243,60 @@
           </div>
         </div>
         <br>
+        <!-- Final -->
         <div class="dt centro">
           <p>Desenvolvido por: Lucas Poeys Carpenter de Sant'Anna</p>
         </div>
       </footer>
+      <!-- Scripts -->
+
+      <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- Própio -->
     <script src="JS/script.js"></script>
+    <!-- Modal de Login -->
     <div class="modal fade" id="login" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
+          <!-- Corpo -->
           <div class="modal-body">
+            <!-- Botão de Fechar -->
             <button type="button" class="btn-close direita" data-bs-dismiss="modal" aria-label="Close"></button>
+            <!-- Título -->
             <h1 class="centro">Login</h1>
+            <!-- Formulário -->
             <div class="p-4">
               <form method="post" action="perfil.php" onsubmit="return logar()">
+                <!-- E-mail -->
                 <div class="mb-3">
+                  <!-- Validação de Usuário -->
                   <p class="vali" id="valilogin-inval">E-mail ou Senha inválidos</p>
+                  <!-- Texto Ligador -->
                   <label for="email-login" class="form-label">Email:</label>
+                  <!-- Caixa de Texto -->
                   <input type="email" class="form-control" id="email-login" name="email-login" aria-describedby="emailHelp">
+                  <!-- Validação -->
                   <p class="vali" id="valilogin-email">Preencha o campo E-mail</p>
                 </div>
+                <!-- Senha -->
                 <div class="mb-3">
+                  <!-- Texto Ligador -->
                   <label for="senha-login" class="form-label">Senha:</label>
+                  <!-- Caixa de Texto -->
                   <input type="password" class="form-control" id="senha-login" name="senha-login">
+                  <!-- Validação -->
                   <p class="vali" id="valilogin-senha">Preencha o campo Senha</p>
                 </div>
+                <!-- Mostrar Senha -->
                 <div class="mb-3 form-check">
+                  <!-- Caixa de Texto -->
                   <input type="checkbox" class="form-check-input" id="mostrar-senha" name="mostrar-senha" onclick="mostrar()">
+                  <!-- Texto Ligador -->
                   <label class="form-check-label" for="mostrar-senha">Mostrar Senha</label>
                 </div>
+                <!-- Convite para Cadastro -->
                 <p>Ainda não possui login? <a href data-bs-target="#cadastro" data-bs-toggle="modal">Cadastre-se!</a></p>
+                <!-- Entrar -->
                 <button type="submit" class="btn btn-primary bt-login">Entrar</button>
               </form>
             </div>
@@ -219,79 +304,133 @@
         </div>
       </div>
     </div>
+    <!-- Modal de Cadastro -->
     <div class="modal fade" id="cadastro" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
+          <!-- Corpo -->
           <div class="modal-body">
+            <!-- Botão de Fechar -->
             <button type="button" class="btn-close direita" data-bs-dismiss="modal" aria-label="Close"></button>
+            <!-- Título -->
             <h1 class="centro">Cadastro</h1>
+            <!-- Formulário -->
             <div class="p-4">
               <form method="post" action="cadastrado.php" onsubmit="return cadastrar()">
                 <div class="row">
+                  <!-- Nome -->
                   <div class="mb-3 col-sm">
+                    <!-- Texto de Ligação -->
                     <label for="nome-cadastro" class="form-label">Nome:</label>
+                    <!-- Caixa de Texto -->
                     <input type="text" class="form-control" id="nome-cadastro" name="nome-cadastro" placeholder="Armando">
+                    <!-- Validação -->
                     <p class="vali" id="valicadastro-nome">Preencha o campo Nome</p>
                   </div>
+                  <!-- Sobrenome -->
                   <div class="mb-3 col-sm">
+                    <!-- Texto de Ligação -->
                     <label for="sobrenome-cadastro" class="form-label">Sobrenome:</label>
+                    <!-- Caixa de Texto -->
                     <input type="text" class="form-control" id="sobrenome-cadastro" name="sobrenome-cadastro" placeholder="Nascimento de Jesus">
+                    <!-- Validação -->
                     <p class="vali" id="valicadastro-sobrenome">Preencha o campo Sobrenome</p>
                   </div>
                 </div>
+                <!-- E-mail -->
                 <div class="mb-3">
+                  <!-- Texto de Ligação -->
                   <label for="email-cadastro" class="form-label">Email:</label>
+                  <!-- Caixa de Texto -->
                   <input type="email" class="form-control" id="email-cadastro" name="email-cadastro" aria-describedby="emailHelp" placeholder="armandodejesus@email.com">
+                  <!-- Validação -->
                   <p class="vali" id="valicadastro-email">Preencha o campo E-mail</p>
                 </div>
                 <div class="row">
+                  <!-- Sexo -->
                   <div class="mb-3 col-sm">
+                    <!-- Texto de Ligação -->
                     <label class="form-label">Sexo:</label><br>
+                    <!-- Caixa de Seleção -->
                     <input type="radio" name="sexo-cadastro" id="masc-cadastro" checked>
+                    <!-- Texto de Ligação -->
                     <label for="masc-cadastro">Masculino</label>
+                    <!-- Caixa de Seleção -->
                     <input type="radio" name="sexo-cadastro" id="fem-cadastro">
+                    <!-- Texto de Ligação -->
                     <label for="fem-cadastro">Feminino</label>
                   </div>
+                  <!-- Data de Nascimento -->
                   <div class="mb-3 col-sm">
+                    <!-- Texto de Ligação -->
                     <label for="nasc-cadastro" class="form-label">Data de Nascimento:</label>
+                    <!-- Caixa de Calendário -->
                     <input type="date" class="form-control" id="nasc-cadastro" name="nasc-cadastro">
+                    <!-- Validação do Campo -->
                     <p class="vali" id="valicadastro-nasc">Preencha o campo Data de Nascimento</p>
+                    <!-- Validação da Idade -->
                     <p class="vali" id="valicadastro-maioridade">Você tem que ser maior de 18 anos para concluir o cadastro</p>
                   </div>
                 </div>
+                <!-- Endereço -->
                 <div class="mb-3">
+                  <!-- Texto de Ligação -->
                   <label for="endereco-cadastro" class="form-label">Endereço:</label>
+                  <!-- Caixa de Texto -->
                   <input type="text" class="form-control" id="endereco-cadastro" name="endereco-cadastro" placeholder="Rua, Nº, Complemento, Bairro, Cidade, Estado">
+                  <!-- Validação -->
                   <p class="vali" id="valicadastro-endereco">Preencha o campo Endereço</p>
                 </div>
                 <div class="row">
+                  <!-- CPF -->
                   <div class="mb-3 col-sm">
+                    <!-- Texto de Ligação -->
                     <label for="cpf-cadastro" class="form-label">CPF:</label>
+                    <!-- Caixa de Texto -->
                     <input type="text" class="form-control" id="cpf-cadastro" name="cpf-cadastro" placeholder="XXX.XXX.XXX-XX" onkeydown="return somente_numero(event)" onkeypress="mascara_cpf(this)" maxlength="14">
+                    <!-- Validação -->
                     <p class="vali" id="valicadastro-cpf">Preencha o campo CPF</p>
                   </div>
+                  <!-- Telefone -->
                   <div class="mb-3 col-sm">
+                    <!-- Texto de Ligação -->
                     <label for="tel-cadastro" class="form-label">Telefone:</label>
+                    <!-- Caixa de Texto -->
                     <input type="text" class="form-control" id="tel-cadastro" name="tel-cadastro" placeholder="(XX) XXXXX-XXXX" onkeydown="return somente_numero(event)" onkeypress="mascara_telefone(this)" maxlength="15">
+                    <!-- Validação -->
                     <p class="vali" id="valicadastro-tel">Preencha o campo Telefone</p>
                   </div>
                 </div>
+                <!-- Senha -->
                 <div class="mb-3">
+                  <!-- Texto de Ligação -->
                   <label for="senha-cadastro" class="form-label">Senha:</label>
+                  <!-- Caixa de Texto -->
                   <input type="password" class="form-control" id="senha-cadastro" name="senha-cadastro">
+                  <!-- Validação -->
                   <p class="vali" id="valicadastro-senha">Preencha o campo Senha</p>
                 </div>
+                <!-- Confirmar Senha -->
                 <div class="mb-3">
+                  <!-- Texto de Ligação -->
                   <label for="confirmsenha-cadastro" class="form-label">Confirmar Senha:</label>
+                  <!-- Caixa de Texto -->
                   <input type="password" class="form-control" id="confirmsenha-cadastro" name="confirmsenha-cadastro">
+                  <!-- Validação de Campo -->
                   <p class="vali" id="valicadastro-confirmsenha">Preencha o campo Confirmar Senha</p>
+                  <!-- Validação de Senha -->
                   <p class="vali" id="valicadastro-difsenha">As senhas não conferem</p>
                 </div>
+                <!-- Mostrar Senha -->
                 <div class="mb-3 form-check">
+                  <!-- Caixa de Checagem -->
                   <input type="checkbox" class="form-check-input" id="mostrar-senha-cadastro" name="mostrar-senha-cadastro" onclick="mostrarcadastro()">
+                  <!-- Texto de Ligação -->
                   <label class="form-check-label" for="mostrar-senha-cadastro">Mostrar Senha</label>
                 </div>
+                <!-- Convite para Logar -->
                 <p>Já possui login? <a href data-bs-target="#login" data-bs-toggle="modal">Faça o login!</a></p>
+                <!-- Cadastrar -->
                 <button type="submit" class="btn btn-primary bt-login">Cadastrar</button>
               </form>
             </div>
@@ -301,3 +440,4 @@
     </div>
   </body>
 </html>
+<!-- Fim :) -->
